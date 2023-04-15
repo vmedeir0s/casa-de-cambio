@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap");
+
+* {
+	box-sizing: border-box;
+	border-style: none;
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+::placeholder {
+  color: #ffffff62;
+}
+
+body {
+	align-items: center;
+	background-color: #282c33;
+	border: 1px solid red;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	font-family: "Fira Code", monospace;
+	justify-content: space-around;
+	min-height: 100vh;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	height: 15vh;
+	justify-content: space-around;
+	width: 70vw;
+}
+
+.green {
+	color: #95eba8;
+}
+
+header form label {
+	font-size: 12px;
+}
+
+header form input {
+	background-color: #d9d9d91a;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	height: 40px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	width: 170px;
+}
+
+header form input:focus {
+	outline: 1px solid #95eba8;
+}
+
+header form button {
+	height: 40px;
+	background-color: #96eb95;
+	border-radius: 10px;
+	color: #373737;
+  cursor: pointer;
+	font-size: 16px;
+	font-weight: 700;
+  transition: background-color 1s;
+  transition: color 1s;
+	width: 200px;
+}
+
+header form button:hover {
+  outline: 1px solid #95eba8;
+  background-color: #d9d9d91a;
+  color: #96eb95;
+}
+
+.coin-content {
+	border: 1px solid red;
+	height: 60vh;
+	width: 70vw;
+}
