@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <script type="module" src="./src/main.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Casa de Câmbio</title>
+	</head>
+	<body>
+		<header>
+			<h1>Casa de <span class="green">Câmbio</span></h1>
+			<form>
+				<label for="coin-input"> Digite a moeda: </label>
+				<div>
+          <input type="text" placeholder="USD" id="coin-input" />
+          <button class="search-btn">Pesquisar</button>
+        </div>
+			</form>
+		</header>
+		<main>
+			<section class="coin-content">
+				<h2 class="coins-title">Valores referentes a 1 USD</h2>
+				<ul class="coins">
+					<li class="coin">ASD <span>3.251</span></li>
+				</ul>
+			</section>
+		</main>
+		<script type="module" src="./src/main.js"></script>
+	</body>
 </html>
